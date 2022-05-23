@@ -12,13 +12,13 @@ const mealRouter = require("../src/routers/mealsRouter");
 
 app.use(cors());
 app.use(express.json())
-app.use(express.static(path.join(__dirname, "..", "frontend")))
+app.use(express.static(path.join(__dirname, "..", "build")))
 app.use(userRouter);
 app.use(mealRouter);
 
 app.get("*", (req, res) => {
-    console.log(path.join(__dirname, "..", "frontend", "index.html"))
-    res.sendFile(path.join(__dirname, "..", "frontend", "index.html"))
+    console.log(path.join(__dirname, "..", "build", "index.html"))
+    res.sendFile(path.join(__dirname, "..", "build", "index.html"))
 })
 
 app.listen(port, () => {
