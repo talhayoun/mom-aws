@@ -12,9 +12,9 @@ const mealRouter = require("../src/routers/mealsRouter");
 
 app.use(cors());
 app.use(express.json())
-app.use(express.static(path.join(__dirname, "..", "build")))
 app.use(userRouter);
 app.use(mealRouter);
+app.use(express.static(path.join(__dirname, "..", "build")))
 
 app.get("*", (req, res) => {
     console.log(path.join(__dirname, "..", "build", "index.html"))
