@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6dd02556.css",
-    "main.js": "/static/js/main.298a5cd1.js",
+    "main.js": "/static/js/main.c55fecc3.js",
     "static/js/787.cfd8f164.chunk.js": "/static/js/787.cfd8f164.chunk.js",
     "static/media/pexels-dana-tentis-691114.jpg": "/static/media/pexels-dana-tentis-691114.088e34b6ea347f36d271.jpg",
     "static/media/recepies-background.jpg": "/static/media/recepies-background.17139b702c8677849cb8.jpg",
@@ -9,11 +9,11 @@
     "static/media/logo-removebg-preview.png": "/static/media/logo-removebg-preview.3c08dfc14e4c142b6b34.png",
     "index.html": "/index.html",
     "main.6dd02556.css.map": "/static/css/main.6dd02556.css.map",
-    "main.298a5cd1.js.map": "/static/js/main.298a5cd1.js.map",
+    "main.c55fecc3.js.map": "/static/js/main.c55fecc3.js.map",
     "787.cfd8f164.chunk.js.map": "/static/js/787.cfd8f164.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6dd02556.css",
-    "static/js/main.298a5cd1.js"
+    "static/js/main.c55fecc3.js"
   ]
 }
